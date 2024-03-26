@@ -1,0 +1,50 @@
+/* Custom CSS para ajustes adicionais */
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    display: none;
+    width: 5%;
+    height: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.1;
+}
+.blockquote-footer {
+        margin: 0.5rem;
+    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+}
+.col-lg-4{
+    text-align: justify;
+}
+.col-lg-8 {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: block;
+        display: none;
+    }
+    .col {
+        margin-bottom: 30px;
+    }
+    .blockquote-footer {
+        margin: 0.5rem;
+    }
+    .text-justify {
+    text-align: center !important;
+    }
+    .btn-primary {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .col-lg-8 {
+    width: 100%;
+}
+}
